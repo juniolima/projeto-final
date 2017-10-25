@@ -1,0 +1,78 @@
+@import "variables";
+.card-messages{
+	.card-block{
+	padding-bottom: 0;
+	padding-top: .5rem;
+	}
+	.fa{
+		padding-top: 1.5px;
+		color: $gray-custom;
+		font-size: .9rem;
+	}
+}
+
+
+.card-visitors,
+.card-messages,
+.card-subscriptions{
+	.card-header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.btn{
+			color: $gray-custom;
+		}
+		.dropdown-item{
+			color: $gray-custom;
+		}
+	}
+}
+
+
+.card{
+	h2{
+		text-transform: uppercase;
+		font-size: 1.3rem;
+		color: #7D7D7D;
+		margin-bottom: 0;
+	}
+	.card-block{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	}
+}
+
+
+
+.card,
+.card-block,
+.card-header{
+	border: none;
+	background-color: $white;
+}
+
+.messages{
+	ul{
+		list-style: none;
+		padding: 0;
+		margin-bottom: 0;
+	}
+	.title-messages{
+		h3{
+			font-size: 1rem;
+			padding: 0rem 1rem;
+		}
+	display: flex;
+	}
+	.box-messages{
+		p{
+			border-left: 1px solid $gray-card;
+			margin-left: 15px;
+			margin-top: 5px;
+			padding-left: 2rem;
+			margin-bottom: 5px;
+			font-size: .8rem;
+		}
+	}
+}
